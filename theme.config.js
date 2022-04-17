@@ -4,9 +4,9 @@ export default {
   titleSuffix: ' – Whatis',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
+      <span className="mr-2 font-extrabold hidden md:inline">Whatis/</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-        The Next.js Static Site Generator
+        A Decentralized Knowledge Base for Web3
       </span>
     </>
   ),
@@ -58,6 +58,7 @@ export default {
     </>
   ),
   search: true,
+  darkMode: true,
   prevLinks: true,
   nextLinks: true,
   footer: true,
